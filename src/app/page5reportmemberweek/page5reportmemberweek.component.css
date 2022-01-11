@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+    border: 0px;
+    font-family: 'Georama', sans-serif;
+    scroll-behavior: smooth;
+}
+  body{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    background-image: linear-gradient(130deg,#45dbbd,#2ecc71);
+    
+  }
+  .topbar{
+    width: 100%;
+    height: 70px;
+    background-image: linear-gradient(130deg,#93f8e4,#61e473);
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .btn-outline-primary{
+      width: 130px;
+      top: 0px;
+      left: 35px;
+      font-size: 30px;
+      border-radius: 10px;
+      display: flex;
+      position: relative;
+      justify-content: center;
+  }
+  .btn-info{
+      border-radius: 10px;
+      font-weight: 700;
+      font-size: 20px;
+      right: 20px;
+      height: 50px;
+      width: 100px;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+  }
+  
+  
+  
+  
+  
+  /* ส่วนตรงกลางงงงงงงงงงงงงงงงงงงงงงงง */
+  .container{
+    margin: 0 auto;
+    height: 683px;
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .containerchart{
+      top: 30px;
+      width: 1100px;
+      height: 550px;
+      background-image: linear-gradient(145deg,#93f8e4,#61e473);
+      position: relative;
+      border-radius: 20px;
+  }
+  .managemember{
+      
+      padding-left: 25px;
+      font-size: 20px;
+      font-weight: 600;
+      top: 80px;
+      left: 110px;
+      height: 70px;
+      width: 1300px;
+      display: flex;
+      position: absolute;
+      align-items: center;
+      justify-content: space-between;
+  }
+  .btn-outline-primary2{
+      right: -350px;
+      width: 150px;
+      height: 47px;
+      font-size: 25px;
+      border-radius: 10px;
+      display: flex;
+      position: relative;
+      justify-content: center;
+      align-items: center;
+  }
+  .btn-outline-primary3{
+    right: 15px;
+    width: 150px;
+    height: 47px;
+    font-size: 25px;
+    border-radius: 10px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    
+}
+  
